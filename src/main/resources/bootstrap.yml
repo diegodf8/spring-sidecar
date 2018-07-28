@@ -6,8 +6,3 @@ spring:
       fail-fast: true
       enabled: true
       uri: http://localhost:8888
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761/eureka/}
