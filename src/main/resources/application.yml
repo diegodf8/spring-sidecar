@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:5678}
+
+sidecar:
+  port: 3000
+  home-page-uri: http://localhost:${sidecar.port}/welcome
+  health-uri: http://localhost:${sidecar.port}/health
+
